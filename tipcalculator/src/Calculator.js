@@ -21,20 +21,20 @@ class Calculator extends React.Component {
         <div id="calculator">
             <form>
                 <p>How much was your bill?</p>
-                    <p>
-                        $ <input id="billamt" type="text" placeholder="Bill Amount"></input>
-                    </p>
-            
-                    <p>How was your service?</p>
-                    <p>
+                <p>
+                    $ <input id="billamt" type="text" placeholder="Bill Amount"></input>
+                </p>
+
+                <p>How was your service?</p>
+                <p>
                     <select id="serviceQual">
-                    <option default value="0">Choose an Option</option>
-                    <option value="0.3">30&#37; &#45; Outstanding</option>
-                    <option value="0.2">20&#37; &#45; Good</option>
-                    <option value="0.15">15&#37; &#45; It was OK</option>
-                    <option value="0.1">10&#37; &#45; Bad</option>
-                    <option value="0.05">5&#37; &#45; Terrible</option>
-                </select>
+                        <option default value="0">Choose an Option</option>
+                        <option value="0.3">30&#37; &#45; Outstanding</option>
+                        <option value="0.2">20&#37; &#45; Good</option>
+                        <option value="0.15">15&#37; &#45; It was OK</option>
+                        <option value="0.1">10&#37; &#45; Bad</option>
+                        <option value="0.05">5&#37; &#45; Terrible</option>
+                    </select>
                 </p>
             </form>
             <button type="button" id="calculate">Calculate!</button>
